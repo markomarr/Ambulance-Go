@@ -60,6 +60,22 @@ export default function LandingScreen() {
         <p className="text-center text-blue-200 text-xs pt-1">
           Layanan tersedia di Jakarta dan sekitarnya
         </p>
+
+        <div className="bg-gray-50 border border-dashed border-gray-300 rounded-xl p-4 space-y-2">
+          <div className="flex items-center gap-2 mb-1">
+            <span className="bg-gray-200 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">
+              Demo
+            </span>
+          </div>
+          <div className="flex justify-between items-center">
+            <p className="text-xs text-gray-500">Email</p>
+            <p className="text-xs font-mono text-gray-700">demo@medride.app</p>
+          </div>
+          <div className="flex justify-between items-center">
+            <p className="text-xs text-gray-500">Password</p>
+            <p className="text-xs font-mono text-gray-700">demo1234</p>
+          </div>
+        </div>
       </div>
     </div>
   )
