@@ -1,0 +1,21 @@
+node_modules/
+dist/
+.env.local
+.env*.local
+.DS_Store
+*.local
+.cache/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Vercel
+.vercel/
